@@ -1,16 +1,13 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Seatwork 5: Espanto Yvhonne Michaella");
-        System.out.println("Countdown");
-        int i = 0;
-        while (i < 10) {
-            System.out.println(i);
-            i++;
-            if (i == 4) {
-                break;
-            }
-        }
+public class SeatworkFive {
+  public static void main(String[] args) {
+    int countdown = 3;
+    System.out.println("Seatworkfive");
 
-        System.out.println("Happy New Birthday ");
+    while (countdown > 0) {
+      System.out.println(countdown);
+      countdown--;
     }
+    
+    System.out.println("Happy Birthday!!");
+  }
 }
